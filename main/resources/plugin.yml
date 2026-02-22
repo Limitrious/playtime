@@ -1,0 +1,12 @@
+name: PlayTime
+author: limitrious
+version: ${project.version}
+description: allows player to see how much they have played for.
+main: me.limitrious.playtime.Main
+depend: [PlaceholderAPI]
+
+commands:
+  playtime:
+    usage: /<command>
+    aliases: [timeplayed, pt]
+    description: Main command for Playtime!
